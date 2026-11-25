@@ -7,8 +7,9 @@ def subtract(a, b):
 def multiply(a, b):
     return a * b
 
-def divide(a, b):
-    return a / b  # Bug: pas de vérification de division par zero
-
-
+def devide(a,b) :
+    if b==0:
+        raise
+        ValueError("Cannot devide by Zero ")
+        return a/b
 
